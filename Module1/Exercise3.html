@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--
+ --    
+ --
+     Description: Exercise 3: Create a two-column layout using CSS Flexbox. Each column should contain an image and a button.
+                  When the button is clicked, change the background color of the column
+                  and update the text on the button to indicate it has been selected.
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 1 Exercise 3</title>
+<style>
+body { font-family: sans-serif; margin: 0; }
+/*    
+   Style the link to return to the portfolio 
+*/
+.home-link {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 15px;
+    background-color: #1f3c88;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.home-link:hover {
+    background-color: #2d5bc4;
+}
+.container { display: flex; min-height: 100vh; align-items: stretch; }
+.column {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #c14e4e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.column:nth-child(2) {
+    background-color: #4e6ac1;
+}
+.column img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 10px;
+}
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button.selected {
+    background-color: green;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+button:hover {
+    transform: scale(1.05);
+    background-color: darkblue;
+}
+</style>
+</head>
+<body>
+      <!-- Link to return to the main portfolio page 
+             at top of page (Excercise 3)-->
+
+<a class="home-link" href="../index.html">
+    ← Return to Portfolio
+</a>
+
+<h1>Module 1 - Exercise 3</h1>
+
+<div class="container">
+    <div class="column" id="col1">
+        <h1 id="heading1">Hello</h1>
+        <h2>Column 1</h2>
+        <img src="images/Hello.jpg" alt="Hello">
+        <button id="btn1" onclick="changeColumn1()">Click Me</button>
+    </div>
+    <div class="column" id="col2">
+        <h1 id="heading2">myWorld</h1>
+        <h2>Column 2</h2>
+        <img src="images/LS01.jpg" alt="World">
+        <button id="btn2" onclick="changeColumn2()">Click Me</button>
+    </div>
+</div>
+<script>
+function changeColumn1() {
+    document.getElementById("col1").style.backgroundColor = 'lightblue';
+    document.getElementById("heading1").textContent = "Column 1 Selected";
+    document.getElementById("btn1").textContent = "Selected";
+    document.getElementById("btn1").style.backgroundColor = "green";
+}
+function changeColumn2() {
+    document.getElementById("col2").style.backgroundColor = 'lightgreen';
+    document.getElementById("heading2").textContent = "Column 2 Selected";
+    document.getElementById("btn2").textContent = "Selected";
+    document.getElementById("btn2").style.backgroundColor = "green";
+}
+function changeImage() {
+    document.querySelector("#col1 img").src = "images/LS02.jpg";
+    document.querySelector("#col2 img").src = "images/S01.jpg";
+}
+</script>
+
+ <!-- Link to return to the main portfolio page 
+      at bottom of page (Excercise 3)-->
+<p>
+    <a class="home-link" href="../index.html">
+        ← Return to Portfolio
+    </a>
+</p>
+</body>
+</html>

@@ -1,0 +1,96 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+***
+*** This is Lab LabExercise1 for MODULE1
+***
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+**
+*** the original folder status before Exercise1
+**
+ Volume in drive C has no label.
+ Volume Serial Number is 26BE-F8AE
+
+ Directory of C:\Users\User\OneDrive\IOD\MODULE_01
+
+05/06/2026  07:48 pm    <DIR>          .
+05/06/2026  06:26 pm    <DIR>          ..
+06/05/2026  03:39 pm    <DIR>          backend
+30/04/2026  10:34 pm               102 Index.html
+30/04/2026  09:54 pm             1,304 Index2.html
+05/06/2026  07:48 pm                 0 LabExercise1.txt
+05/06/2026  06:27 pm    <DIR>          LAB_EXERCISES
+05/05/2026  08:49 pm         6,012,041 Module 1.pdf
+30/04/2026  09:47 pm               493 style.css
+               5 File(s)      6,013,940 bytes
+               4 Dir(s)  398,123,687,936 bytes free
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1...Description: create a new folder, as displayed in Directory list below
+                md newFolder00
+
+ Volume in drive C has no label.
+ Volume Serial Number is 26BE-F8AE
+
+ Directory of C:\Users\User\OneDrive\IOD\MODULE_01
+
+05/06/2026  07:49 pm    <DIR>          .
+05/06/2026  06:26 pm    <DIR>          ..
+06/05/2026  03:39 pm    <DIR>          backend
+30/04/2026  10:34 pm               102 Index.html
+30/04/2026  09:54 pm             1,304 Index2.html
+05/06/2026  07:48 pm               676 LabExercise1.txt
+05/06/2026  06:27 pm    <DIR>          LAB_EXERCISES
+05/05/2026  08:49 pm         6,012,041 Module 1.pdf
+05/06/2026  07:49 pm    <DIR>          newFolder00
+30/04/2026  09:47 pm               493 style.css
+               5 File(s)      6,014,616 bytes
+               5 Dir(s)  398,121,672,704 bytes free
+-----------------------------------------------------------
+
+2...Description: create a new folder(newFolder01), inside previously created folder (newFolder00)
+3.  Display/Print contents of first folder (newFolder00)
+
+ Volume in drive C has no label.
+ Volume Serial Number is 26BE-F8AE
+
+ Directory of C:\Users\User\OneDrive\IOD\MODULE_01\newFolder00
+
+05/06/2026  07:52 pm    <DIR>          .
+05/06/2026  07:49 pm    <DIR>          ..
+05/06/2026  07:52 pm    <DIR>          newFolder01
+               0 File(s)              0 bytes
+               3 Dir(s)  398,119,854,080 bytes free
+------------------------------------------------------------------
+
+4...Display of second folder(newFolder01)
+
+
+ Volume in drive C has no label.
+ Volume Serial Number is 26BE-F8AE
+
+ Directory of C:\Users\User\OneDrive\IOD\MODULE_01\newFolder00\newFolder01
+
+05/06/2026  07:52 pm    <DIR>          .
+05/06/2026  07:52 pm    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  398,116,810,752 bytes free
+----------------------------------------------------------------------
+
+5...Change Directory back to original starting folder (MODULE_01)
+6...Delete the first folder (newFolder00)
+
+ Volume in drive C has no label.
+ Volume Serial Number is 26BE-F8AE
+
+ Directory of C:\Users\User\OneDrive\IOD\MODULE_01
+
+05/06/2026  08:06 pm    <DIR>          .
+05/06/2026  06:26 pm    <DIR>          ..
+06/05/2026  03:39 pm    <DIR>          backend
+30/04/2026  10:34 pm               102 Index.html
+30/04/2026  09:54 pm             1,304 Index2.html
+05/06/2026  08:07 pm             2,413 LabExercise1.txt
+05/06/2026  06:27 pm    <DIR>          LAB_EXERCISES
+05/05/2026  08:49 pm         6,012,041 Module 1.pdf
+30/04/2026  09:47 pm               493 style.css
+               5 File(s)      6,016,353 bytes
+               4 Dir(s)  398,137,143,296 bytes free

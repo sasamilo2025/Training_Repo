@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+ <!--
+     
+      Exercise 2: Create a basic HTML page with a header and content section. Use CSS to style the header and content.
+-->
+<html lang="en">
+<head>
+<title>Exercise 2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* CSS styles go here */
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+/* Header/Title */
+.header {
+  margin-top: 30px;  
+  padding: 40px;
+  text-align: left;
+  background: blue;
+  color: white;
+  display: inline-block;
+  width: 25%; /* Set the width of the header
+                  backgroundto 25% of the page */
+  border-radius: 0 80px 80px 0 /* Add rounded corners to the right side of the header background */
+}
+/* Page Content */
+.content {
+    padding-left: 50px;
+    text-indent: -20px;
+    font-size: 20px;
+    }
+
+    /* Style the link to return to the portfolio */
+
+.home-link {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 15px;
+    background-color: #1f3c88;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.home-link:hover {
+    background-color: #2d5bc4;
+}
+
+</style>
+<!-- End of CSS styles -->
+</head>
+<body>
+
+  <!-- Link to return to the main portfolio page 
+        appears at top of page (Excercise 2)-->
+
+<a class="home-link" href="../index.html">
+    ← Return to Portfolio
+</a>
+
+<h1>Module 1 - Exercise 2</h1>
+
+</body>
+
+<div class="header">
+  <h1>Lab Exercise 2 </h1>
+</div>
+
+<div class="content">
+  <p>1. Open or create your Model 1 folder in VS Code.</p>
+  <p>2. Use the <strong>Terminal</strong> feature of VS Code to issue commands to create a new folder inside<br>
+        Module 1 for <strong>LabExercises</strong> and change into it.</p>
+   <p>3. Inside the above folder, create a new file called <strong>exercise2.html</strong></p>
+   <p>4. As the first character in this file, type an exclamation mark ! and use the Emmet<br>
+         abbrevation to generate the basic HTML skeleton.</p>
+    <p>5. Populate the &lt;body&gt; with basic HTML representing these lab steps</p>
+    <p>6. <strong>Go Live</strong> to view and test the HTML</p>
+    <p>7. Install <strong>Prettier</strong> VSCode extension and format selected code with Ctrl-K-F</p>
+    <p>8. Read through <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files" target="_blank">Dealing with files</a> on the MDN for more tips about website file systems.</p>
+
+</div>
+
+ <!-- Link to return to the main portfolio page 
+      at bottom of page (Excercise 2)-->
+
+<p>
+    <a class="home-link" href="../index.html">
+        ← Return to Portfolio
+    </a>
+</p>
+</body>
+</html>
