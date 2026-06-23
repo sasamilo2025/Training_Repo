@@ -1,0 +1,99 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* set 2 spaces after the header (<h1>) in resume.html 
+    the header in */
+    
+h1 {
+    margin-bottom: 40px;
+}
+
+/* PAGE */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* RESUME CONTAINER */
+
+.resume {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* LEFT COLUMN */
+
+.sidebar {
+    width: 30%;
+    background: #1e3a5f;
+    color: white;
+    padding: 30px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.sidebar h1 {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* RIGHT COLUMN */
+
+.content {
+    width: 70%;
+    padding: 30px;
+}
+
+.content section {
+    margin-bottom: 30px;
+}
+
+.content h2 {
+    border-bottom: 2px solid #1e3a5f;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.content h3 {
+    margin-top: 15px;
+}
+    /* Style the link to return to the Portfolio Page */
+
+.home-link {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 15px;
+    background-color: #1f3c88;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.home-link:hover {
+    background-color: #2d5bc4;
+}

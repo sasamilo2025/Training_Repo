@@ -115,5 +115,112 @@ h1 {
     object-fit: cover;
     border-radius: 8px;
 }
+/*  end of addCard CSS */
+
+/*
+    Main Menu CSS (links to index.html)
+*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: #1f3c88;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #333;
+    justify-content: space-evenly; 
+    display: flex;    
+}
+
+.menu li {
+    position: relative;
+    /* flex: 1;
+    text-align: center; */
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.menu li:hover {
+    background: #555;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 180px;
+}
+
+.dropdown li a {
+    padding: 12px;
+}
+
+.menu li:hover .dropdown {
+    display: block; /* makes an element as a block-level element. */
+}
+
+main {
+    padding: 60px; /* pushes the container up or down, if value of pixel is higher it pushes down,
+                      if lower , the container moves up */
+}
+
+.status-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; 
+    margin: 30px;
+}
+
+.status-card {
+    flex: 1;
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.status-card h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #1f3c88;
+    padding-bottom: 10px;
+}
+
+.status-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.status-card li {
+    padding: 8px 0;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
    
